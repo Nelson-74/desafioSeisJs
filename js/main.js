@@ -31,3 +31,6 @@ for (const verdura of verduras){
 
 console.log(verduras);
 console.log(verduras[0].nombre + " " + verduras[2].precio);
+
+const barato = verduras.filter (verdura => verdura.precio < 420);
+console.log(barato);
